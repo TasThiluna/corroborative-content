@@ -1,4 +1,20 @@
 {
   "item.corroborative_content.black_diamond": "Black Diamond",
-  "block.corroborative_content.black_diamond_block": "Block of Black Diamond"
+  "block.corroborative_content.black_diamond_block": "Block of Black Diamond",
+  "item.corroborative_content.black_brick": "Black Brick",
+  "item.corroborative_content.red_brick": "Red Brick",
+  "item.corroborative_content.green_brick": "Green Brick",
+  "item.corroborative_content.brown_brick": "Brown Brick",
+  "item.corroborative_content.blue_brick": "Blue Brick",
+  "item.corroborative_content.purple_brick": "Purple Brick",
+  "item.corroborative_content.cyan_brick": "Cyan Brick",
+  "item.corroborative_content.light_gray_brick": "Light Gray Brick",
+  "item.corroborative_content.gray_brick": "Gray Brick",
+  "item.corroborative_content.pink_brick": "Pink Brick",
+  "item.corroborative_content.lime_brick": "Lime Brick",
+  "item.corroborative_content.yellow_brick": "Yellow Brick",
+  "item.corroborative_content.light_blue_brick": "Light Blue Brick",
+  "item.corroborative_content.magenta_brick": "Magenta Brick",
+  "item.corroborative_content.orange_brick": "Orange Brick",
+  "item.corroborative_content.white_brick": "White Brick"
 }

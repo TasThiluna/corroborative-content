@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "corroborative_content:black_diamond"
+    }
+  },
+  "result": {
+    "item": "corroborative_content:black_diamond_block",
+    "count": 1
+  }
+}

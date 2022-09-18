@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "corroborative_content:black_diamond_block"
+        }
+    ],
+    "result": {
+        "item": "corroborative_content:black_diamond",
+        "count": 9
+    }
+}

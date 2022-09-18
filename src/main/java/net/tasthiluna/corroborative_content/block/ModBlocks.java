@@ -22,7 +22,7 @@ public class ModBlocks
 
     public static final RegistryObject<Block> BLACK_DIAMOND_BLOCK = registerBlock("black_diamond_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL)
-                    .strength(6f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(5f, 6f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)
     {
