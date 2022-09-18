@@ -3,10 +3,10 @@ loaderVersion="[41,)"
 license="MIT License"
 [[mods]]
 modId="corroborative_content"
-version="0.0.1-1.19"
+version="0.0.1-1.19.2"
 displayName="Corroborative Content"
 logoFile="examplemod.png"
-credits="Thanks to Kaupenjoe for his tutorial"
+credits="Thanks to Kaupenjoe for his tutorial series!"
 authors="TasThiluna"
 description='''
 Simply some stuff I wanted to put into the game. Not that crazy.
