@@ -11,6 +11,7 @@ import net.tasthiluna.corroborative_content.CorroborativeContent;
 public class ModItems
 {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, CorroborativeContent.MOD_ID);
+    @SuppressWarnings("unused")
 
     public static final RegistryObject<Item> BLACK_DIAMOND = ITEMS.register("black_diamond",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));

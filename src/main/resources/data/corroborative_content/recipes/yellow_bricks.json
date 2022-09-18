@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "corroborative_content:yellow_brick"
+        }
+    },
+    "result": {
+        "item": "corroborative_content:yellow_bricks",
+        "count": 1
+    },
+    "group": "colored_bricks"
+}

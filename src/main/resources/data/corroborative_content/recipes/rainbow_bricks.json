@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "corroborative_content:red_brick"
+    },
+    {
+      "item": "corroborative_content:orange_brick"
+    },
+    {
+      "item": "corroborative_content:yellow_brick"
+    },
+    {
+      "item": "corroborative_content:green_brick"
+    },
+    {
+      "item": "corroborative_content:cyan_brick"
+    },
+    {
+      "item": "corroborative_content:blue_brick"
+    },
+    {
+      "item": "corroborative_content:purple_brick"
+    },
+    {
+      "item": "corroborative_content:pink_brick"
+    }
+  ],
+  "result": {
+    "item": "corroborative_content:rainbow_bricks",
+    "count": 1
+  }
+}

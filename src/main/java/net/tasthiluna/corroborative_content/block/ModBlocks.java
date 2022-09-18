@@ -22,7 +22,60 @@ public class ModBlocks
 
     public static final RegistryObject<Block> BLACK_DIAMOND_BLOCK = registerBlock("black_diamond_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL)
-                    .strength(5f, 6f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+                    .strength(50f, 6f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    //region Colored bricks
+    public static final RegistryObject<Block> BLACK_BRICKS = registerBlock("black_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> RED_BRICKS = registerBlock("red_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> GREEN_BRICKS = registerBlock("green_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BROWN_BRICKS = registerBlock("brown_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> BLUE_BRICKS = registerBlock("blue_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> PURPLE_BRICKS = registerBlock("purple_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> CYAN_BRICKS = registerBlock("cyan_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> LIGHT_GRAY_BRICKS = registerBlock("light_gray_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> GRAY_BRICKS = registerBlock("gray_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> PINK_BRICKS = registerBlock("pink_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> LIME_BRICKS = registerBlock("lime_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> YELLOW_BRICKS = registerBlock("yellow_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> LIGHT_BLUE_BRICKS = registerBlock("light_blue_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> MAGENTA_BRICKS = registerBlock("magenta_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> ORANGE_BRICKS = registerBlock("orange_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> WHITE_BRICKS = registerBlock("white_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> RAINBOW_BRICKS = registerBlock("rainbow_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE)
+                    .strength(2f, 6f)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    //endregion
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab)
     {

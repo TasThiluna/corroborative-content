@@ -16,5 +16,22 @@
   "item.corroborative_content.light_blue_brick": "Light Blue Brick",
   "item.corroborative_content.magenta_brick": "Magenta Brick",
   "item.corroborative_content.orange_brick": "Orange Brick",
-  "item.corroborative_content.white_brick": "White Brick"
+  "item.corroborative_content.white_brick": "White Brick",
+  "block.corroborative_content.black_bricks": "Black Bricks",
+  "block.corroborative_content.red_bricks": "Red Bricks",
+  "block.corroborative_content.green_bricks": "Green Bricks",
+  "block.corroborative_content.brown_bricks": "Brown Bricks",
+  "block.corroborative_content.blue_bricks": "Blue Bricks",
+  "block.corroborative_content.purple_bricks": "Purple Bricks",
+  "block.corroborative_content.cyan_bricks": "Cyan Bricks",
+  "block.corroborative_content.light_gray_bricks": "Light Gray Bricks",
+  "block.corroborative_content.gray_bricks": "Gray Bricks",
+  "block.corroborative_content.pink_bricks": "Pink Bricks",
+  "block.corroborative_content.lime_bricks": "Lime Bricks",
+  "block.corroborative_content.yellow_bricks": "Yellow Bricks",
+  "block.corroborative_content.light_blue_bricks": "Light Blue Bricks",
+  "block.corroborative_content.magenta_bricks": "Magenta Bricks",
+  "block.corroborative_content.orange_bricks": "Orange Bricks",
+  "block.corroborative_content.white_bricks": "White Bricks",
+  "block.corroborative_content.rainbow_bricks": "Rainbow Bricks"
 }
