@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="MIT License"
+[[mods]]
+modId="corroborative_content"
+version="0.0.1-1.19"
+displayName="Corroborative Content"
+logoFile="examplemod.png"
+credits="Thanks to Kaupenjoe for his tutorial"
+authors="TasThiluna"
+description='''
+Simply some stuff I wanted to put into the game. Not that crazy.
+'''
+[[dependencies.corroborative_content]]
+    modId="forge"
+    mandatory=true
+    versionRange="[41,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.corroborative_content]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
